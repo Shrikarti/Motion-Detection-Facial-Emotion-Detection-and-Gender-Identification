@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 23 17:53:52 2024
 
-@author: RADHASHYAM
+@author: SHRIKARTI
 """
 import os
 import cv2
@@ -12,7 +12,6 @@ from skimage.feature import local_binary_pattern
 import zipfile
 
 import zipfile
-import os
 
 # Path to the zip file
 zip_file_path = "D://SEMESTER 7//IAV//face dataset.zip"
@@ -142,7 +141,7 @@ def classify_gender(geometric_features, texture_features, lbp_variance):
     else:
         return 'Female'
 
-sample_image_path = os.path.join(subfolder_path, '090544.jpg.jpg')
+sample_image_path = os.path.join(subfolder_path, '131506.jpg.jpg')
 
 # Detect and crop the face from the sample image
 cropped_face, face_rect = detect_and_crop_face(sample_image_path)

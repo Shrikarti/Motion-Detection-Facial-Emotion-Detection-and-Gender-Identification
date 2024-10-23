@@ -2,7 +2,7 @@
 """
 Created on Wed Oct 23 14:13:54 2024
 
-@author: RADHASHYAM
+@author: SHRIKARTI
 """
 
 import cv2
